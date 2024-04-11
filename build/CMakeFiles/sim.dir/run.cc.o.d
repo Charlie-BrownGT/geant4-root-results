@@ -1,11 +1,6 @@
-CMakeFiles/sim.dir/action.cc.o: /home/guy/geant4-root-results/action.cc \
- /usr/include/stdc-predef.h /home/guy/geant4-root-results/action.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/guy/geant4-root-results/generator.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ParticleGun.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/globals.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ios.hh \
+CMakeFiles/sim.dir/run.cc.o: /home/guy/geant4-root-results/run.cc \
+ /usr/include/stdc-predef.h /home/guy/geant4-root-results/run.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4UserRunAction.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4Types.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/11/complex \
@@ -180,6 +175,14 @@ CMakeFiles/sim.dir/action.cc.o: /home/guy/geant4-root-results/action.cc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/tls.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AnalysisManager.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4GenericAnalysisManager.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4VAnalysisManager.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AnalysisManagerState.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AnalysisVerbose.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/globals.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ios.hh \
  /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -236,14 +239,6 @@ CMakeFiles/sim.dir/action.cc.o: /home/guy/geant4-root-results/action.cc \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ThreeVector.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/CLHEP/Utility/defs.h \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ParticleDefinition.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4PDefManager.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AutoLock.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/shared_ptr.h \
@@ -255,29 +250,6 @@ CMakeFiles/sim.dir/action.cc.o: /home/guy/geant4-root-results/action.cc \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/pwdefs.hh \
- /usr/include/c++/11/stdlib.h \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ParticleDefinition.icc \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4PrimaryVertex.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4Allocator.hh \
- /usr/include/c++/11/cstddef \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AllocatorPool.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4PrimaryParticle.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ParticleMomentum.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4SystemOfUnits.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ParticleTable.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ParticleTable.icc \
- /home/guy/geant4-root-results/run.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4UserRunAction.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AnalysisManager.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4GenericAnalysisManager.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ToolsAnalysisManager.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4VAnalysisManager.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AnalysisManagerState.hh \
- /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AnalysisVerbose.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AnalysisUtilities.hh \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -312,11 +284,16 @@ CMakeFiles/sim.dir/action.cc.o: /home/guy/geant4-root-results/action.cc \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4THnToolsManager.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4THnManager.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4THnManager.icc \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4AutoLock.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4THnMessenger.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4UImessenger.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4UIdirectory.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4UIcommand.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ApplicationState.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4ThreeVector.hh \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4UIparameter.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4UItokenNum.hh \
  /home/guy/software/geant4-v11.2.1-ST-install/include/Geant4/G4THnToolsManager.icc \
